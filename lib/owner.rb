@@ -13,7 +13,14 @@ class Owner
   def self.all
     @@all
   end
-  
-  
+  def species(species = "human")
+    @species = species
+  end
+  def say_species
+    "I am a human."
+  end
+  def self.count
+    self.all.count
+  end
   
 end
