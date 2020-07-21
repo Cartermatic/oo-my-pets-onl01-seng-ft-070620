@@ -40,7 +40,11 @@ class Owner
   def walk_dogs
     Dog.mood = "happy"
   end
-  
-  
+  def feed_cats
+    
+  end
+  def sell_pets
+    
+  end
   
 end
