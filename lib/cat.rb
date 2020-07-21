@@ -14,6 +14,9 @@ class Cat
     @@all
   end
   
+  def save
+    @@all << self
+  end
   
   
   
